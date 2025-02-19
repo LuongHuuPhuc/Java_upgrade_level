@@ -1,5 +1,9 @@
 class Nested_loop{
+  int number;
+  
+  //Constructor
   Nested_loop(int n){
+    this.number = n;
     System.out.println("This is a nested loop with " + n + "rows");
   }
   int loopp(int n){
@@ -19,8 +23,8 @@ public class Loop_check{
     int count_down = 30;
     int numb = 15;
     Nested_loop nl = new Nested_loop(numb);
+    System.out.println("Print number in nested loop: " + nl.number);
     nl.loopp(numb);
-
     while(i < 10){
       System.out.println("Hello World");
       System.out.println("Count down before:" + count_down);
