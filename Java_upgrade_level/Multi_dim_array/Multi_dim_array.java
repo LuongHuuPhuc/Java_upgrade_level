@@ -85,7 +85,7 @@ public class Multi_dim_array {
         case 2: 
         System.out.println("Nhap vi tri hang: ");
         int row = scanner.nextInt();
-        System.out.println("Nhap vi tri hang: ");
+        System.out.println("Nhap vi tri cot: ");
         int col = scanner.nextInt();
         System.out.println("Nhap gia tri can thay vao: ");
         int val = scanner.nextInt();
