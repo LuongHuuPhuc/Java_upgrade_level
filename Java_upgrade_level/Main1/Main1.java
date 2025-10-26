@@ -1,6 +1,6 @@
 //Class nao public thi class do la ten file do
 //Chi duoc 1 class public trong 1 file
-public class Main {
+public class Main1 {
   public static void main(String[] args){
     String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     String txt1 = "Please locate where 'locate' occurs !";
